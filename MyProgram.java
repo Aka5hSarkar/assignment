@@ -1,8 +1,8 @@
-package Assignments;
+package JavaClass;
 
 class MyProgram {
-
-  public static void main(String arg[]) {
-		System.out.println("My First Java Program");
-	}
+public static void main(String arg[]) {
+	DisplayMessage program=new DisplayMessage();
+	program.printMessage();
+}
 }
